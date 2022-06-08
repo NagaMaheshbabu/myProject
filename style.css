@@ -1,0 +1,223 @@
+*
+{
+    box-sizing:border-box;
+}
+body{
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+    background-color: #23252C;
+
+}
+.logo
+{
+    position: absolute;
+    width: 316px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+    border-radius: 10px 10px 0 0;
+}
+.Container
+{
+    width: 319px;
+    height: 712px;
+    position: absolute;
+    left: 115px;
+    top: 45px;
+    box-shadow:  1px -1px 1px #fff,
+    -0.5px -0.1px 1px #fff,
+    1px 1px 10px #fff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.Main
+{
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    left: px;
+    top: 310px;
+    background-color:#1A1B21 ;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  
+}
+.Name
+{
+    position: absolute;
+    width:179px;
+    height: 26px;
+    left: 65px;
+    top: 0.5px;
+    color: #fff;
+    line-height: 10px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Inter';
+}
+.para
+{
+    color: #F3BF99;
+    font-family: 'Inter';
+    font-weight: 400;
+    text-align: center;
+    line-height: 65px;
+    font-size:10px;
+    position: absolute;
+    left: 110px;
+    font-style: normal;
+}
+.website
+{
+    text-align:center;
+    position: absolute;
+    top: 39px;
+    left: 110px;
+    font-size: 10px;
+    color: #fff;
+    font-family: 'Inter';
+
+}
+.email
+{
+    position: absolute;
+    top: 78px;
+    left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 25px;
+    color:  #374151;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-size: 17px;
+    transition: all 500ms;
+}
+.email:hover
+{
+    transform: translateY(-7px);
+}
+.email span{
+    margin-right: 7px;
+    font-size: 15px;
+    color: #000;
+    margin-top: 2px;
+    
+}
+.linkedin
+{
+    position: absolute;
+    top: 76px;
+    left: 160px;
+    background-color: #5093E2;
+    font-size: 17px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-family: 'Inter';
+    transition: all 500ms ease-out;
+}
+.linkedin:hover{
+    background-color: #5093ff;
+    transform: translateY(-7px);
+}
+.about
+{
+    color: #fff;
+    font-family: 'Inter';
+    position: absolute;
+    top: 120px;
+    left: 31px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+.Intro
+{
+    color: #fff;
+    font-family: 'Inter';
+    width: 270px;
+    height: 399px;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    font-size: 10.9px;
+    line-height: 17px;
+   
+}
+.Intrests--head
+{
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 16px;
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    font-weight: 700;
+}
+.Intrests{
+    color: #fff;
+    font-family: 'Inter';
+    position: absolute;
+    top: 255px;
+    left: 30px;
+    font-size: 10.9px;
+    line-height: 17px;
+}
+.Icons
+{
+    width: 317px;
+    height: 64px;
+    position: absolute;
+    top: 335px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #161619;
+    
+}
+.Icons-list
+{
+    width: 200px;
+    height: 22px;
+    position: absolute;
+    top: 20px;
+    left: 55px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Icons-list button
+{
+    cursor: pointer;
+   background-color:  #918E9B;
+   border: none;
+   border-radius: 2px;
+   transition: all 500ms ease-in;
+}
+.Icons-list button:hover{
+    background-color: skyblue;
+    transform: translate(0px,-3px);
+}
+
+.fa-brands fa-twitter-square
+{
+    background: #918E9B;
+}
+
+
+
+
