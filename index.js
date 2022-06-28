@@ -1,7 +1,10 @@
+
 import React from "react";
-import  ReactDOM  from "react-dom";
-import App from "./App.js"
+import  { createRoot } from "react-dom/client";
+import APP from "./App"
 import "./style.css"
 
 
-ReactDOM.render(<App />,document.getElementById('root'));
+let container = document.getElementById('root');
+let root = createRoot(container);
+root.render(<APP />)
